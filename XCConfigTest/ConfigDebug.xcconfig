@@ -1,0 +1,20 @@
+//
+//  Config.xcconfig
+//  XCConfigTest
+//
+//  Created by ksnowlv on 14-8-31.
+//  Copyright (c) 2014年 alibaba. All rights reserved.
+//
+
+//:configuration = Debug
+OTHER_LDFLAGS = -ObjC -weak_framework UIKit  -framework CoreLocation
+
+
+//DEBUG __TAOBAOTEST__
+GCC_PREPROCESSOR_DEFINITIONS = __TAOBAOTEST__= 0  $(inherited)
+
+
+//:completeSettings = none
+
+
+

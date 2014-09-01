@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  XCConfigTest
+//
+//  Created by ksnowlv on 14-8-31.
+//  Copyright (c) 2014年 alibaba. All rights reserved.
+//
+
+//:configuration = Release
+OTHER_LDFLAGS = -ObjC -weak_framework UIKit  -framework CoreLocation
+
+
+
